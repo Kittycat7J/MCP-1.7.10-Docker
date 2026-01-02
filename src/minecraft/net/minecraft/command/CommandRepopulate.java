@@ -34,7 +34,6 @@ public class CommandRepopulate extends CommandBase {
         int chunkZ;
 
         // Default: sender position
-        if (sender instanceof EntityPlayerMP) {
 
             if (sender instanceof EntityPlayerMP) {
                 EntityPlayerMP player = (EntityPlayerMP) sender;
@@ -45,10 +44,6 @@ public class CommandRepopulate extends CommandBase {
                 chunkZ = 0;
             }
 
-        } else {
-            chunkX = 0;
-            chunkZ = 0;
-        }
 
         boolean now = false;
 
@@ -73,6 +68,7 @@ public class CommandRepopulate extends CommandBase {
             sender.addChatMessage(new ChatComponentText("Repopulated chunk " + chunkX + ", " + chunkZ));
         } else {
             world.getChunkFromChunkCoords(chunkX, chunkZ).isTerrainPopulated = false;
+
             sender.addChatMessage(new ChatComponentText("Marked chunk " + chunkX + ", " + chunkZ + " for repopulation"));
         }
     }
@@ -81,7 +77,6 @@ public class CommandRepopulate extends CommandBase {
         ChunkProviderServer provider = (ChunkProviderServer) world.getChunkProvider();
         Chunk chunk = world.getChunkFromChunkCoords(x, z);
         chunk.isTerrainPopulated = false;
-        chunk.isLightPopulated = false;
         provider.populate(provider, x, z);
     }
 

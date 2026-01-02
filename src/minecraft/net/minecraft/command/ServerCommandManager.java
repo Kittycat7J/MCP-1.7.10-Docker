@@ -34,6 +34,7 @@ import net.minecraft.network.rcon.RConConsoleSource;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.util.ChatComponentTranslation;
 import net.minecraft.util.EnumChatFormatting;
+import net.minecraft.command.CommandRepopulate;
 
 public class ServerCommandManager extends CommandHandler implements IAdminCommand {
    private static final String __OBFID = "CL_00000922";
@@ -42,11 +43,9 @@ public class ServerCommandManager extends CommandHandler implements IAdminComman
       this.registerCommand(new CommandTime());
       this.registerCommand(new CommandGameMode());
       this.registerCommand(new CommandDifficulty());
-       this.registerCommand(new CommandRepopulate());
-       this.registerCommand(new CommandRepopulate());
-      this.registerCommand(new SpawnerBlockCommand());
       this.registerCommand(new CommandDefaultGameMode());
       this.registerCommand(new CommandKill());
+      this.registerCommand(new CommandRepopulate());
       this.registerCommand(new CommandToggleDownfall());
       this.registerCommand(new CommandWeather());
       this.registerCommand(new CommandXP());

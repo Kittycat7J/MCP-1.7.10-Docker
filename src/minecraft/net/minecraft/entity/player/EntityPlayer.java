@@ -1172,17 +1172,12 @@ public abstract class EntityPlayer extends EntityLivingBase implements ICommandS
       if(this.capabilities.isFlying && this.ridingEntity == null) {
          double var9 = this.motionY;
          float var11 = this.jumpMovementFactor;
-
          this.jumpMovementFactor = this.capabilities.getFlySpeed();
          super.moveEntityWithHeading(p_70612_1_, p_70612_2_);
          this.motionY = var9 * 0.6D;
          this.jumpMovementFactor = var11;
-
-
-
       } else {
          super.moveEntityWithHeading(p_70612_1_, p_70612_2_);
-
       }
 
       this.addMovementStat(this.posX - var3, this.posY - var5, this.posZ - var7);

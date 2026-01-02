@@ -1,15 +1,10 @@
 package net.minecraft.world.gen.feature;
 
-import net.minecraft.block.Block;
-import net.minecraft.tileentity.TileEntity;
-
 import java.util.Random;
 import net.minecraft.block.material.Material;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.tileentity.TileEntityChest;
-import net.minecraft.command.SpawnerBlockCommand;
-import net.minecraft.command.SpawnerBlockState;
 import net.minecraft.tileentity.TileEntityMobSpawner;
 import net.minecraft.util.WeightedRandomChestContent;
 import net.minecraft.world.World;
@@ -114,30 +109,11 @@ public class WorldGenDungeons extends WorldGenerator {
             }
          }
 
-          Block block = SpawnerBlockState.block;
-          int meta = SpawnerBlockState.meta;
-
-          p_76484_1_.setBlock(p_76484_3_, p_76484_4_, p_76484_5_, block, meta, 2);
-
-          if (block == Blocks.mob_spawner) {
-              TileEntityMobSpawner spawner =
-                      (TileEntityMobSpawner)p_76484_1_.getTileEntity(
-                              p_76484_3_, p_76484_4_, p_76484_5_
-                      );
-
-              if (spawner != null) {
-                  spawner.func_145881_a().setMobID(this.pickMobSpawner(p_76484_2_));
-              }
-          } else if (SpawnerBlockState.nbt != null) {
-              // Apply NBT to any tile entity
-              TileEntity te = p_76484_1_.getTileEntity(
-                      p_76484_3_, p_76484_4_, p_76484_5_
-              );
-
-              if (te != null) {
-                  te.readFromNBT(SpawnerBlockState.nbt);
-              }
-          } else {
+         p_76484_1_.setBlock(p_76484_3_, p_76484_4_, p_76484_5_, Blocks.mob_spawner, 0, 2);
+         TileEntityMobSpawner var18 = (TileEntityMobSpawner)p_76484_1_.getTileEntity(p_76484_3_, p_76484_4_, p_76484_5_);
+         if(var18 != null) {
+            var18.func_145881_a().setMobID(this.pickMobSpawner(p_76484_2_));
+         } else {
             System.err.println("Failed to fetch mob spawner entity at (" + p_76484_3_ + ", " + p_76484_4_ + ", " + p_76484_5_ + ")");
          }
 

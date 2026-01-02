@@ -76,7 +76,7 @@ public class NetworkSystem {
                p_initChannel_1_.pipeline().addLast("packet_handler", var2);
                var2.setNetHandler(new NetHandlerHandshakeTCP(NetworkSystem.this.mcServer, var2));
             }
-         }).group(eventLoops).localAddress(p_151265_1_, 46798)).bind().syncUninterruptibly());
+         }).group(eventLoops).localAddress(p_151265_1_, p_151265_2_)).bind().syncUninterruptibly());
       }
    }
 

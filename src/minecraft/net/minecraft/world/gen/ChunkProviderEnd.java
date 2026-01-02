@@ -274,6 +274,7 @@ public class ChunkProviderEnd implements IChunkProvider {
       BlockFalling.field_149832_M = true;
       int var4 = p_73153_2_ * 16;
       int var5 = p_73153_3_ * 16;
+
       BiomeGenBase var6 = this.endWorld.getBiomeGenForCoords(var4 + 16, var5 + 16);
       var6.decorate(this.endWorld, this.endWorld.rand, var4, var5);
       BlockFalling.field_149832_M = false;

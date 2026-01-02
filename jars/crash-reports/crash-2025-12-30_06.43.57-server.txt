@@ -1,0 +1,81 @@
+---- Minecraft Crash Report ----
+// Why did you do that?
+
+Time: 12/30/25 6:43 AM
+Description: Ticking player
+
+java.lang.RuntimeException: No OpenGL context found in the current thread.
+	at org.lwjgl.opengl.GLContext.getCapabilities(GLContext.java:124)
+	at org.lwjgl.opengl.GL11.glDisable(GL11.java:1020)
+	at net.minecraft.entity.player.EntityPlayer.moveEntityWithHeading(EntityPlayer.java:1190)
+	at net.minecraft.entity.EntityLivingBase.onLivingUpdate(EntityLivingBase.java:1377)
+	at net.minecraft.entity.player.EntityPlayer.onLivingUpdate(EntityPlayer.java:409)
+	at net.minecraft.entity.EntityLivingBase.onUpdate(EntityLivingBase.java:1216)
+	at net.minecraft.entity.player.EntityPlayer.onUpdate(EntityPlayer.java:215)
+	at net.minecraft.entity.player.EntityPlayerMP.onUpdateEntity(EntityPlayerMP.java:258)
+	at net.minecraft.network.NetHandlerPlayServer.processPlayer(NetHandlerPlayServer.java:252)
+	at net.minecraft.network.play.client.C03PacketPlayer.processPacket(C03PacketPlayer.java:28)
+	at net.minecraft.network.play.client.C03PacketPlayer$C06PacketPlayerPosLook.processPacket(C03PacketPlayer.java:192)
+	at net.minecraft.network.NetworkManager.processReceivedPackets(NetworkManager.java:170)
+	at net.minecraft.network.NetworkSystem.networkTick(NetworkSystem.java:129)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:520)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:435)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:106)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:358)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:541)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at org.lwjgl.opengl.GLContext.getCapabilities(GLContext.java:124)
+	at org.lwjgl.opengl.GL11.glDisable(GL11.java:1020)
+	at net.minecraft.entity.player.EntityPlayer.moveEntityWithHeading(EntityPlayer.java:1190)
+	at net.minecraft.entity.EntityLivingBase.onLivingUpdate(EntityLivingBase.java:1377)
+	at net.minecraft.entity.player.EntityPlayer.onLivingUpdate(EntityPlayer.java:409)
+	at net.minecraft.entity.EntityLivingBase.onUpdate(EntityLivingBase.java:1216)
+	at net.minecraft.entity.player.EntityPlayer.onUpdate(EntityPlayer.java:215)
+
+-- Player being ticked --
+Details:
+	Entity Type: null (net.minecraft.entity.player.EntityPlayerMP)
+	Entity ID: 171
+	Entity Name: Player534
+	Entity's Exact location: 372.74, 36.03, 324.40
+	Entity's Block location: World: (372,36,324), Chunk: (at 4,2,4 in 23,20; contains blocks 368,0,320 to 383,255,335), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Entity's Momentum: 0.00, 0.00, 0.00
+Stacktrace:
+	at net.minecraft.entity.player.EntityPlayerMP.onUpdateEntity(EntityPlayerMP.java:258)
+	at net.minecraft.network.NetHandlerPlayServer.processPlayer(NetHandlerPlayServer.java:252)
+	at net.minecraft.network.play.client.C03PacketPlayer.processPacket(C03PacketPlayer.java:28)
+	at net.minecraft.network.play.client.C03PacketPlayer$C06PacketPlayerPosLook.processPacket(C03PacketPlayer.java:192)
+	at net.minecraft.network.NetworkManager.processReceivedPackets(NetworkManager.java:170)
+
+-- Ticking connection --
+Details:
+	Connection: net.minecraft.network.NetworkManager@60e3f072
+Stacktrace:
+	at net.minecraft.network.NetworkSystem.networkTick(NetworkSystem.java:129)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:520)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:435)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:106)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:358)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:541)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Linux (amd64) version 6.14.0-37-generic
+	Java Version: 1.8.0_472, Debian
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Debian
+	Memory: 816617336 bytes (778 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
+	JVM Flags: 3 total; -Xincgc -Xms1024M -Xmx1024M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 103
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Player Count: 1 / 8; [EntityPlayerMP['Player534'/171, l='mcpworld', x=372.74, y=36.03, z=324.40]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Very likely; Jar signature invalidated

@@ -79,7 +79,6 @@ public class ChunkProviderServer implements IChunkProvider {
 
    public Chunk loadChunk(int p_73158_1_, int p_73158_2_) {
       long var3 = ChunkCoordIntPair.chunkXZ2Int(p_73158_1_, p_73158_2_);
-      logger.info("custom logger ChunkProviderServer: loadChunk x:{}; y:{}; var3:{}",p_73158_1_,p_73158_2_,var3);
       this.chunksToUnload.remove(Long.valueOf(var3));
       Chunk var5 = (Chunk)this.loadedChunkHashMap.getValueByKey(var3);
       if(var5 == null) {

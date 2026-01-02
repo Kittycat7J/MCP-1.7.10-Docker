@@ -1,0 +1,276 @@
+[02:08:36] [main/ERROR]: Can't find the resource index file: assets/indexes/1.7.10.json
+[02:08:36] [main/INFO]: Setting user: Player193
+[02:08:36] [main/INFO]: (Session ID is token:0:Player193)
+[02:08:36] [Client thread/INFO]: LWJGL Version: 2.9.1
+[02:08:36] [Client thread/ERROR]: Couldn't initialize twitch stream
+[02:08:36] [Client thread/INFO]: Reloading ResourceManager: Default
+[02:08:37] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[02:08:37] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[02:08:38] [Sound Library Loader/INFO]: Sound engine started
+[02:08:43] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[02:08:51] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[02:08:55] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[02:08:55] [Server thread/INFO]: Generating keypair
+[02:08:55] [Server thread/INFO]: Preparing start region for level 0
+[02:08:56] [Server thread/INFO]: Changing view distance to 2, from 10
+[02:08:56] [Server thread/INFO]: Player193[local:E:3edebba1] logged in with entity id 160 at (239.55090993368924, 16.0, -25.128090887979987)
+[02:08:56] [Server thread/INFO]: Player193 joined the game
+[02:09:04] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:dig.stone
+[02:09:04] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:dig.stone
+[02:09:04] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:09:04] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:dig.stone
+[02:09:04] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:dig.stone
+[02:09:05] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:dig.stone
+[02:09:05] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:dig.stone
+[02:09:11] [Client thread/INFO]: [CHAT] Repopulated chunk 14, -2
+[02:09:15] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.game.end
+[02:09:19] [Client thread/INFO]: [CHAT] Repopulated chunk 14, -3
+[02:09:48] [Server thread/INFO]: Saving and pausing game...
+[02:09:48] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/Overworld
+[02:09:49] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/Nether
+[02:09:49] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/The End
+[02:09:49] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[02:09:49] [Server thread/INFO]: Stopping server
+[02:09:49] [Server thread/INFO]: Saving players
+[02:09:49] [Server thread/INFO]: Saving worlds
+[02:09:49] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/Overworld
+[02:09:49] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/Nether
+[02:09:49] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/The End
+[02:10:04] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[02:10:10] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[02:10:10] [Server thread/INFO]: Generating keypair
+[02:10:10] [Server thread/INFO]: Preparing start region for level 0
+[02:10:10] [Server thread/INFO]: Changing view distance to 2, from 10
+[02:10:10] [Server thread/INFO]: Player193[local:E:fe85177c] logged in with entity id 812 at (237.60840340220537, 17.0, 37.97472320204144)
+[02:10:10] [Server thread/INFO]: Player193 joined the game
+[02:10:21] [Client thread/INFO]: [CHAT] Marked chunk 14, -3 for repopulation
+[02:10:23] [Server thread/INFO]: Saving and pausing game...
+[02:10:23] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/Overworld
+[02:10:23] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/Nether
+[02:10:23] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/The End
+[02:10:30] [Server thread/INFO]: Saving and pausing game...
+[02:10:30] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/Overworld
+[02:10:30] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/Nether
+[02:10:30] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/The End
+[02:10:34] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[02:10:37] [Server thread/INFO]: [Player193: Block placed]
+[02:10:38] [Client thread/INFO]: [CHAT] Block placed
+[02:10:38] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:tile.piston.out
+[02:13:32] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:ambient.cave.cave
+[02:19:08] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:ambient.cave.cave
+[02:20:03] [Server thread/INFO]: Saving and pausing game...
+[02:20:03] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/Overworld
+[02:20:03] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/Nether
+[02:20:03] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/The End
+[02:20:08] [Server thread/INFO]: Saving and pausing game...
+[02:20:08] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/Overworld
+[02:20:08] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/Nether
+[02:20:08] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/The End
+[02:20:10] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[02:20:12] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:14] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:16] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:17] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:17] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:18] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:19] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:19] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:20] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:20] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:21] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:21] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:22] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.pop
+[02:20:22] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.pop
+[02:20:22] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.pop
+[02:20:22] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:23] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:24] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.pop
+[02:20:25] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:26] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:28] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:30] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:30] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:31] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:31] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:31] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:31] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:32] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:32] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:33] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:33] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:34] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:34] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:34] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:35] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:35] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:35] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:36] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:36] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:37] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:37] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:38] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:38] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:38] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:42] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:20:43] [Server thread/INFO]: Saving and pausing game...
+[02:20:43] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/Overworld
+[02:20:43] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/Nether
+[02:20:43] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/The End
+[02:23:28] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:23:30] [Server thread/INFO]: Saving and pausing game...
+[02:23:30] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/Overworld
+[02:23:30] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/Nether
+[02:23:30] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/The End
+[02:23:30] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[02:23:31] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[02:23:32] [Server thread/INFO]: Changing view distance to 7, from 2
+[02:23:38] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:23:38] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:23:39] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:dig.stone
+[02:23:39] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:dig.glass
+[02:23:41] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:dig.stone
+[02:23:42] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:dig.stone
+[02:23:43] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:dig.glass
+[02:23:43] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:23:44] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:dig.stone
+[02:23:45] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:23:46] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:23:47] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:23:47] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:23:48] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:23:49] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:23:50] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:23:50] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:23:50] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:23:51] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:23:51] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:23:52] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:23:52] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:23:53] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:23:55] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:23:55] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:23:55] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:23:56] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:23:57] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:23:58] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:23:59] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:24:00] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:24:03] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:24:03] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:24:06] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:24:07] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:24:07] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:24:08] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:24:09] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:24:14] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:24:14] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:24:15] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:24:16] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:24:17] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:24:17] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:24:18] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:24:19] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:24:20] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:24:21] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:24:27] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:24:28] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:24:29] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:24:31] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:24:32] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:24:41] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:24:41] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:dig.glass
+[02:24:43] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:24:45] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:24:47] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:24:48] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:dig.glass
+[02:24:48] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:24:50] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:24:52] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:24:53] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:dig.glass
+[02:24:54] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:24:54] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:24:56] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:25:26] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:25:26] [Server thread/INFO]: Saving and pausing game...
+[02:25:26] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/Overworld
+[02:25:26] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/Nether
+[02:25:26] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/The End
+[02:25:27] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[02:25:27] [Server thread/INFO]: Stopping server
+[02:25:27] [Server thread/INFO]: Saving players
+[02:25:27] [Server thread/INFO]: Saving worlds
+[02:25:27] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/Overworld
+[02:25:27] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/Nether
+[02:25:27] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/The End
+[02:25:33] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[02:25:36] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[02:25:36] [Server thread/INFO]: Generating keypair
+[02:25:36] [Server thread/INFO]: Preparing start region for level 0
+[02:25:36] [Server thread/INFO]: Changing view distance to 7, from 10
+[02:25:36] [Server thread/INFO]: Player193[local:E:7151036f] logged in with entity id 2268 at (237.60840340220537, 17.0, 37.97472320204144)
+[02:25:36] [Server thread/INFO]: Player193 joined the game
+[02:25:38] [Server thread/INFO]: Saving and pausing game...
+[02:25:38] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/Overworld
+[02:25:38] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/Nether
+[02:25:38] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/The End
+[02:25:39] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[02:25:40] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[02:25:41] [Server thread/INFO]: Changing view distance to 2, from 7
+[02:25:41] [Server thread/INFO]: Saving and pausing game...
+[02:25:41] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/Overworld
+[02:25:41] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/Nether
+[02:25:41] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/The End
+[02:25:42] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[02:25:42] [Server thread/INFO]: Stopping server
+[02:25:42] [Server thread/INFO]: Saving players
+[02:25:42] [Server thread/INFO]: Saving worlds
+[02:25:42] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/Overworld
+[02:25:42] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/Nether
+[02:25:42] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/The End
+[02:25:42] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[02:25:43] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[02:25:43] [Server thread/INFO]: Generating keypair
+[02:25:44] [Server thread/INFO]: Preparing start region for level 0
+[02:25:44] [Server thread/INFO]: Changing view distance to 2, from 10
+[02:25:44] [Server thread/INFO]: Player193[local:E:7185078d] logged in with entity id 2465 at (237.60840340220537, 17.0, 37.97472320204144)
+[02:25:44] [Server thread/INFO]: Player193 joined the game
+[02:25:44] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[02:25:51] [Client thread/INFO]: [CHAT] Marked chunk 14, -3 for repopulation
+[02:26:01] [Server thread/INFO]: [Player193: Block placed]
+[02:26:01] [Client thread/INFO]: [CHAT] Block placed
+[02:26:01] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:tile.piston.out
+[02:26:02] [Server thread/INFO]: Saving and pausing game...
+[02:26:02] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/Overworld
+[02:26:02] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/Nether
+[02:26:02] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/The End
+[02:26:06] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:ambient.cave.cave
+[02:26:17] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:26:18] [Server thread/INFO]: Saving and pausing game...
+[02:26:18] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/Overworld
+[02:26:18] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/Nether
+[02:26:18] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/The End
+[02:26:26] [Server thread/INFO]: Saving and pausing game...
+[02:26:26] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/Overworld
+[02:26:26] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/Nether
+[02:26:26] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/The End
+[02:26:29] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.pop
+[02:26:29] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:26:29] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:26:30] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.pop
+[02:26:30] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:26:32] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:26:32] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:26:33] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.pop
+[02:26:33] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:26:34] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:26:35] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:26:35] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:26:35] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:26:36] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:26:37] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:26:37] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:26:38] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[02:26:39] [Server thread/INFO]: Saving and pausing game...
+[02:26:39] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/Overworld
+[02:26:39] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/Nether
+[02:26:39] [Server thread/INFO]: Saving chunks for level 'Bedrock Item'/The End

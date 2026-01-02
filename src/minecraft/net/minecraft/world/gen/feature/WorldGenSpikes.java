@@ -5,11 +5,9 @@ import net.minecraft.block.Block;
 import net.minecraft.entity.item.EntityEnderCrystal;
 import net.minecraft.init.Blocks;
 import net.minecraft.world.World;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import java.util.Arrays;
 
 public class WorldGenSpikes extends WorldGenerator {
-    private static final Logger logger = LogManager.getLogger();
    private Block field_150520_a;
    private static final String __OBFID = "CL_00000433";
 
@@ -19,13 +17,10 @@ public class WorldGenSpikes extends WorldGenerator {
 
    public boolean generate(World p_76484_1_, Random p_76484_2_, int p_76484_3_, int p_76484_4_, int p_76484_5_) {
       if(p_76484_1_.isAirBlock(p_76484_3_, p_76484_4_, p_76484_5_) && p_76484_1_.getBlock(p_76484_3_, p_76484_4_ - 1, p_76484_5_) == this.field_150520_a) {
-          logger.info("custom logger WorldGenSpikes: p_76484_2_.nextInt(32) + 6; p_76484_2_.nextInt(4) + 1;");
          int var6 = p_76484_2_.nextInt(32) + 6;
-         logger.info("custom logger WorldGenSpikes: var6:{}; p_76484_2_.nextInt(32) = {}",var6,var6-6);
-         var6 = 6;
          int var7 = p_76484_2_.nextInt(4) + 1;
-         var7 = 0;
-
+        var6 = 6;
+        var7 = 2;
          int var8;
          int var9;
          int var10;
@@ -46,7 +41,7 @@ public class WorldGenSpikes extends WorldGenerator {
                   var11 = var9 - p_76484_3_;
                   int var12 = var10 - p_76484_5_;
                   if(var11 * var11 + var12 * var12 <= var7 * var7 + 1) {
-                     p_76484_1_.setBlock(var9, var8, var10, Blocks.carpet, 0, 2);
+                     p_76484_1_.setBlock(var9, var8, var10, Blocks.obsidian, 0, 2);
                   }
                }
             }
@@ -55,7 +50,8 @@ public class WorldGenSpikes extends WorldGenerator {
          EntityEnderCrystal var13 = new EntityEnderCrystal(p_76484_1_);
          var13.setLocationAndAngles((double)((float)p_76484_3_ + 0.5F), (double)(p_76484_4_ + var6), (double)((float)p_76484_5_ + 0.5F), p_76484_2_.nextFloat() * 360.0F, 0.0F);
          p_76484_1_.spawnEntityInWorld(var13);
-         logger.info("custom logger WorldGenSpikes: placing bedrock at {}, {}, {}",p_76484_3_,p_76484_4_ + var6,p_76484_5_);
+         System.out.println("stacktrace:" + Arrays.toString(Thread.currentThread().getStackTrace()));
+         System.out.println("custom logger WorldGenSpikes: spawned bedrock at x:" + p_76484_3_ + " y:" + (p_76484_4_ + var6) + " z:" + p_76484_5_);
          p_76484_1_.setBlock(p_76484_3_, p_76484_4_ + var6, p_76484_5_, Blocks.bedrock, 0, 2);
          return true;
       } else {

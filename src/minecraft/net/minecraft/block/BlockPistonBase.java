@@ -157,7 +157,7 @@ public class BlockPistonBase extends Block {
                }
             }
 
-            if(!var13 && var11.getMaterial() != Material.air && canPush(var11, p_149696_1_, var8, var9, var10, false) && (var11.getMobilityFlag() == 0 || var11 == Blocks.piston || var11 == Blocks.sticky_piston)) {
+            if(!var13 && var11.getMaterial() != Material.air && func_150080_a(var11, p_149696_1_, var8, var9, var10, false) && (var11.getMobilityFlag() == 0 || var11 == Blocks.piston || var11 == Blocks.sticky_piston)) {
                p_149696_2_ += Facing.offsetsXForSide[p_149696_6_];
                p_149696_3_ += Facing.offsetsYForSide[p_149696_6_];
                p_149696_4_ += Facing.offsetsZForSide[p_149696_6_];
@@ -247,7 +247,7 @@ public class BlockPistonBase extends Block {
       return var7 == 0?2:(var7 == 1?5:(var7 == 2?3:(var7 == 3?4:0)));
    }
 
-   private static boolean canPush(Block p_150080_0_, World p_150080_1_, int p_150080_2_, int p_150080_3_, int p_150080_4_, boolean p_150080_5_) {
+   private static boolean func_150080_a(Block p_150080_0_, World p_150080_1_, int p_150080_2_, int p_150080_3_, int p_150080_4_, boolean p_150080_5_) {
       if(p_150080_0_ == Blocks.obsidian) {
          return false;
       } else {
@@ -289,7 +289,7 @@ public class BlockPistonBase extends Block {
 
             Block var9 = p_150077_0_.getBlock(var5, var6, var7);
             if(var9.getMaterial() != Material.air) {
-               if(!canPush(var9, p_150077_0_, var5, var6, var7, true)) {
+               if(!func_150080_a(var9, p_150077_0_, var5, var6, var7, true)) {
                   return false;
                }
 
@@ -325,7 +325,7 @@ public class BlockPistonBase extends Block {
 
             Block var10 = p_150079_1_.getBlock(var6, var7, var8);
             if(var10.getMaterial() != Material.air) {
-               if(!canPush(var10, p_150079_1_, var6, var7, var8, true)) {
+               if(!func_150080_a(var10, p_150079_1_, var6, var7, var8, true)) {
                   return false;
                }
 
